@@ -7,9 +7,12 @@ import Sobre from "../screens/Sobre";
 import Ajuda from "../screens/Ajuda";
 import CustomDrawer from "../components/CustomDrawer";
 import Feather from "react-native-vector-icons/Feather";
+import { TouchableOpacity } from "react-native-gesture-handler";
+import { useNavigation } from "@react-navigation/native";
 
 export const Rotas = () => {
   const Drawer = createDrawerNavigator();
+  const navigation = useNavigation();
 
   return (
     <Drawer.Navigator
@@ -20,6 +23,11 @@ export const Rotas = () => {
         drawerInactiveBackgroundColor: "#fafaf2",
         drawerInactiveTintColor: "#000",
         drawerActiveTintColor: "#fff",
+        // headerLeft: () => (
+        //   <TouchableOpacity onPress={() => navigation.openDrawer()}>
+        //     <Feather name="home" color={"#000"} size={36} />
+        //   </TouchableOpacity>
+        // ),
       }}
     >
       <Drawer.Screen

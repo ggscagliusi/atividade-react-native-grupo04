@@ -19,6 +19,11 @@ export default function Home() {
         }
         title={"Conheça o sr.K"}
       />
+
+      <Botao
+        onPress={() => Linking.openURL("Contato")}
+        title={"Teste do link pra telas"}
+      />
     </View>
   );
 }

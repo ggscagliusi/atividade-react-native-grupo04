@@ -4,7 +4,7 @@ export const styles = StyleSheet.create({
   botaoEstilo: {
     backgroundColor: "#ff7c1e",
     margin: 10,
-    padding: 15,
+    padding: 20,
     borderRadius: 30,   
   },
 
@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
   {
     fontWeight: "bold",
     color: '#fff',
-    fontSize: 48
+    fontSize: 36,
+    textAlign: 'center'
   }
 });
