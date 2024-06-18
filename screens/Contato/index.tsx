@@ -5,7 +5,7 @@ import Botao from "../../components/Botao/index";
 import { useNavigation } from "@react-navigation/native";
 
 export default function Contato() {
-  const navigation = useNavigation;
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <Botao
