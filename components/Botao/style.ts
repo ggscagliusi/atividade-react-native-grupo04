@@ -5,9 +5,13 @@ export const styles = StyleSheet.create({
     backgroundColor: "#ff7c1e",
     margin: 10,
     padding: 15,
-    borderRadius: 30,
-    color: "#fff",
-    fontWeight: "bold",
-    fontSize: 38,
+    borderRadius: 30,   
   },
+
+  botaoTexto:
+  {
+    fontWeight: "bold",
+    color: '#fff',
+    fontSize: 48
+  }
 });

@@ -5,7 +5,7 @@ import { styles } from "./style";
 export default function Botao({ onPress, title }) {
   return (
     <Pressable style={styles.botaoEstilo} onPress={onPress}>
-      <Text>{title}</Text>
+      <Text style={styles.botaoTexto}>{title}</Text>
     </Pressable>
   );
 }
